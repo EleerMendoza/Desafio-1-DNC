@@ -1,95 +1,95 @@
 *{
     margin: 0px;
     font-family: "Inter", sans-serif;
-      
+    
  }  
+ html{
+    overflow-x: hidden;
+ }
+
+ .seçao-1{
+    width: 100%;
+    height: 475px;
+    background: #303030;
+    
+ }
+
+ .menusuperior{
+    
+    padding: 0px;
+    color: #FFFFFF;
+    margin-left: 62px;
+    padding-top: 206px;
+    }
   
-#titulo-menusuperior{
-    margin-left: 30px;
+.titulo-menusuperior{
+    /**margin-left: 30px;
     margin-top: 60px;
     background-color: #303030;
-    color: #FFFFFF;
+    color: #FFFFFF;*/
     font-size: 50px;
+   
 
 }
 
-#texto-menusuperior{
-    margin-left: 30px;
-    margin-top: 5px;
-    background-color: #303030;
-    color: #FFFFFF;
+.texto-menusuperior{
+    margin-top: 20px;
     font-size: 20px;
+    /**background-color: #303030;
+    color: #FFFFFF;
     width: 1000px;
-    height: 100px;
+    height: 100px;*/
 
-    
-}
-
-#menusuperior{
-    background: #303030;
-    padding: 100px;
     
 }
 
 .menuintermedio{
-    padding: 0px;
-    color: #f5f5f5;
+
+    
+    padding-bottom: 66.82px;
+    padding-top: 96px;
+
     display: flex;
-    justify-content: center
-    
-    
-   
-
-}
-
-.menuintermedio-1{
-    margin: 90px 100px 200px;
+    width: 100%;
+    gap: 99px;
     font-size: 20px;
     color: #000000;
-   
-}
+    justify-content: center;
 
-.menuintermedio-2{
-    margin: 90px 80px 200px;
-    font-size: 20px;
-    color: #000000;
-    
-}
-
-.menuintermedio-3{
-    margin: 90px 70px 200px;
-    font-size: 20px;
-    color: #000000;
-    
 }
 
 .menuapartamento{
     display: flex;
-    justify-content: space-around;
+    padding: 0 77px;
+    gap: 66px;
+    margin-bottom: 92px;
+    
     align-items: center;
     color: #F5F5F5;
+    margin-top: 82px;
+    width: 100%;
 }
 
 .imagens{
     width: 510px;
     height: 605px;
-    margin-left: 40px;
+    
+    
     
 }
 
 #titulo-menumedio{
-    margin-left: 80px;
-    margin-top: 50px;
+    
+    
     color: #000000;
     
     
 }
 
 #texto-menumedio{
-    margin-left: 80px;
-    margin-top: 20px;
-    margin-right: 50px;
-    font-size: larger;
+    
+    margin-top: 40px;
+    font-size: 20px;
     color: #000000;
     
 }
@@ -97,20 +97,19 @@
 #formulario{
     
     background-color: #303030;
-    padding: 100px;
-    text-align: center;
-    margin: 80px 0px 0px; 
-    
+    display: flex;
+    justify-content: center;
+    padding: 87px 0px
+
+
 }
   
-
-
 #texto-formulario{
-    text-align: center;
+       
     font-size: 32px;
-    margin: 15px;
+    margin-bottom: 48px;
     color: #FFFFFF;
-     
+        
     
 }
 
@@ -118,12 +117,12 @@ input{
     Width: 508px;
     Height: 72px;
     background-color: #FFFFFF;
-    margin: 25px;
     border: 15px;
     border-radius: 10px;
     padding-left: 25px;
     font-size: 20px;
     font-family: "Raleway", sans-serif;
+    margin: 0px;
     
 }
     
@@ -131,18 +130,27 @@ button{
     font-family: "Raleway", sans-serif; 
     background-color: #C07212;
     width: 286px;
-     height: 74px;
+    height: 74px;
     color: #FFFFFF;
     border-radius: 10px;
      margin-bottom: 50px;
     font-weight: bolder;
     font-size: 30px;
-    margin: 50px;
     transition-duration: 0.5s;
+    margin-top: 80px;
+}
+
+.formulario-style{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+
 }
     
 button:hover{
-        background-color: #ff0000;
+        
         color: #FFFFFF;
         transform: translateY(-7px);
         transition-duration: 0.5s;
